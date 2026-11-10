@@ -173,3 +173,20 @@ columns: 20rem;
         display:none;
     }
 }
+#myVideo {
+    display: block;
+    width: 90%;
+    max-width: 600px;
+    aspect-ratio: 16 / 9;
+    height: auto;
+    margin: 0 auto;
+    border: none;
+}
+video {
+    max-width: 100%;
+}
+.video-caption {
+    text-align: center;
+    font-size: 1rem;
+    font-style: italic;
+}
